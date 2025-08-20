@@ -1,9 +1,10 @@
 //left rotate using reverse method
 //tc O(n)
 //sc O(1)
+//to check merge conflict will occur or not
 class RotateLeftReverseMethod {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6,7,8};
+        int[] arr={10,20,30,40,50};//to check the merge conflict occurs or not
         int k=2;
         display(arr);
         leftRotate(arr,k);
