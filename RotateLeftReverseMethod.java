@@ -4,7 +4,7 @@
 //to check merge conflict will occur or not
 class RotateLeftReverseMethod {
     public static void main(String[] args) {
-        int[] arr={10,20,30,40,50};//to check the merge conflict occurs or not
+        int[] arr={10,20,30,40,50};//to check the merge conflict occurs or not by new-merge branch
         int k=2;
         display(arr);
         leftRotate(arr,k);
