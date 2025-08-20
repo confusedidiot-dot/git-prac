@@ -25,8 +25,9 @@ class RotateLeftReverseMethod {
         }
     }
     public static void display(int[] arr){
-        for(int i:arr){
-            System.out.print(i+" ");
+	int n=arr.length;
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
         }
         System.out.println();
     }
